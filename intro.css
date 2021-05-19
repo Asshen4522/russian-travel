@@ -1,0 +1,29 @@
+.intro{
+    margin-bottom: 92px;
+}
+
+.intro__header{
+    font-size: 54px;
+    line-height: 58px;
+    margin-bottom: 40px;
+}
+
+.intro__middle{
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 33px;
+    max-width: 70ch;
+}
+
+.intro__footer{
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.li-text{
+    font-weight: bold;
+}
+
+.li-num{
+    font-weight: 400;
+}

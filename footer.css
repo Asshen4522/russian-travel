@@ -1,0 +1,83 @@
+
+.footer__photo{
+    background-image: url(./img/__background.png);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 740px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 92px;
+}
+
+.footer__header{
+    font-size: 72px;
+    line-height: 76px;
+    text-align: center;
+    z-index: 1;
+    margin-bottom: 32px;
+}
+
+.footer__paragraph{
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    z-index: 1;
+}
+
+
+.overlay{
+    width: 100%;
+    height: 100%;
+    background-color: purple;
+    opacity: 0.3;
+    position: absolute;
+    transition: opacity 1s;
+}
+
+.overlay:hover{
+    opacity: 0.8;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    margin-left: 48px;
+    margin-right: 48px;
+}
+
+.footer__contacts{
+    margin-right: 18px;
+    font-size: 16px;
+    line-height: 18px;
+    display: block;
+
+}
+
+.footer__contacts:last-of-type{
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.gallery-bottom{
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 92px;
+}
+
+@media screen and (max-width:1279px) {
+    .gallery-bottom{
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 92px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+}
+
+@media screen and (max-width:767px) {
+}

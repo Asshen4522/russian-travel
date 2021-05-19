@@ -1,0 +1,131 @@
+.header{
+
+}
+
+.header__container{
+    display: flex ;
+    flex-direction: column;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+    margin-left: 48px;
+    margin-right: 48px;
+    margin-bottom: 56px;
+    align-items: center;
+}
+
+.lang-choice{
+    
+}
+
+.lang-choice__btn{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    
+
+    text-align: right;
+    
+
+    color: #FFFFFF;
+    margin-left: 18px;
+}
+
+.lang-choice__btn:hover{
+    transform: scaleY(2);
+}
+
+.lang-choice__btn_active{
+    text-decoration: underline;
+}
+
+.header__content{
+    
+}
+
+.header__heading{
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.header__paragraph{
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.header_img{
+    margin-bottom: 8px;
+}
+
+.header__caption{
+    font-size: 10px;
+    line-height: 14px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 92px;
+}
+
+.header__photo{
+    margin: 0;
+}
+
+.header__photo-width{
+    width: 100%;
+}
+
+@media screen and (max-width:1279px) {
+    
+    .header__container{
+        display: flex ;
+        flex-direction: column;
+        margin-right: 48px;
+        margin-left: 48px;
+    }
+}
+
+@media screen and (max-width:1023px) {
+    .header__container{
+        display: flex ;
+        flex-direction: column;
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .header__caption{
+        font-size: 10px;
+        line-height: 14px;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        margin-bottom: 88px;
+        margin-left: 24px;
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .lang-choice__btn{
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 20px;
+        
+    
+        text-align: right;
+        
+    
+        color: #FFFFFF;
+        margin-left: 18px;
+    }
+}

@@ -54,7 +54,6 @@
     font-size: 16px;
     line-height: 18px;
     display: block;
-
 }
 
 .footer__contacts:last-of-type{
@@ -80,4 +79,55 @@
 }
 
 @media screen and (max-width:767px) {
+    .footer__header{
+        font-size: 32px;
+        line-height: 35px;
+        text-align: center;
+        z-index: 1;
+        margin-bottom: 16px;
+    }
+    
+    .footer__paragraph{
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        z-index: 1;
+    }
+
+    .footer__photo{
+        background-image: url(./img/__background.png);
+        background-repeat: no-repeat; 
+        background-size: cover;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        margin-bottom: 64px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 24px;
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .footer__contacts{
+        margin-bottom: 32px;
+        font-size: 16px;
+        line-height: 18px;
+        display: block;
+    }
+
+    .footer__contacts:last-of-type{
+        margin-top: auto;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 14px;
+        line-height: 14px;
+    }
 }

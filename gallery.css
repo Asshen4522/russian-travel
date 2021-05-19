@@ -23,6 +23,13 @@
     .gallery__list-item{
         flex-basis: calc((100% - 32px) / 3)
     }
+
+    .gallery__list{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 14px;
+    }
 }
 
 @media screen and (max-width:1023px) {
@@ -35,10 +42,31 @@
         margin-right: 24px;
         margin-bottom: 88px;
     }
+
+    .gallery__list{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 16px;
+    }
 }
 
 @media screen and (max-width:767px) {
     .gallery__list-item{
         flex-basis: 100%
     }
+
+    .gallery{
+        margin-left: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+    }
+
+    .gallery__list{
+        display:flex;
+        flex-wrap: wrap;
+        width: 100%;
+        gap: 12px;
+    }
+    
 }
